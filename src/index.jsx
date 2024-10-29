@@ -5,8 +5,9 @@ import tracks from "./tracks";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <React.StrictMode>
-    <AudioPlayer tracks={tracks} />
-  </React.StrictMode>,
-  rootElement
+	<React.StrictMode>
+		<AudioPlayer tracks={tracks} />
+
+	</React.StrictMode>,
+	rootElement
 );
